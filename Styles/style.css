@@ -1,0 +1,25 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common fonts */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+}
+/* main product part */
+
+.main-product{
+    display: flex;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    padding-left: 50px;
+}
+.intro-part{
+    width: 440px;
+    height: 414px;
+}
