@@ -1,25 +1,87 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
 /* common fonts */
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
-main{
-    display: flex;
+main {
+  /* display: flex; */
 }
 /* main product part */
 
-.main-product{
-    display: flex;
+.main-product {
+  display: flex;
+  justify-content: space-between;
 }
-h1{
-    font-size: 40px;
+.intro-part {
+  width: 50%;
+  padding: 0 1rem;
 }
-h2{
-    padding-left: 50px;
+.main-product:hover #rotate {
+  transform: scale(1.3);
 }
-.intro-part{
-    width: 440px;
-    height: 414px;
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 35px;
+  padding-left: 50px;
+}
+
+p {
+  padding-bottom: 20px;
+}
+.button {
+  text-decoration: none;
+  background-image: linear-gradient(rgb(15, 118, 153), cyan);
+  padding: 15px 40px;
+  color: whitesmoke;
+  font-weight: 800;
+  border-radius: 15px;
+}
+
+/* Top product cataegory */
+
+.Middle-heading {
+  text-align: center;
+}
+.Products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+}
+.product .product-img {
+  width: 300px;
+  height: 256px;
+}
+.product-details {
+}
+.fa-star {
+  font-size: 10px;
+}
+.fa-star.filled {
+  color: #ffc014;
+}
+.fa-star.empty {
+  color: #aeaeae;
+}
+
+/* Footer */
+
+footer {
+  background-color: black;
+  width: 100%;
+  color: whitesmoke;
+  text-align: center;
+}
+
+@media only screen and(max-width:688px) {
+  .container {
+    width: 100%;
+  }
+  .players {
+    background-color: red;
+    /* grid-template-columns: repeat(1, 1fr); */
+  }
 }
