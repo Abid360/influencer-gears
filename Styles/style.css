@@ -27,7 +27,7 @@ main {
 }
 h2 {
   font-size: 35px;
-  padding-left: 50px;
+  /* padding-left: 50px; */
 }
 
 h3 {
@@ -36,7 +36,6 @@ h3 {
 
 p {
   padding-bottom: 20px;
-  padding-left: 2rem;
 }
 .button {
   text-decoration: none;
@@ -68,9 +67,12 @@ p {
 .product .product-img {
   width: 300px;
   height: 256px;
+  background-color: white;
+  padding: 1rem 1rem;
 }
 .product-details {
   /* padding-left: 1rem; */
+  padding: 1rem 1rem;
 }
 .fa-star {
   font-size: 10px;
@@ -89,14 +91,15 @@ p {
   font-weight: 800;
   border-radius: 15px;
 }
+.spacer {
+  display: block;
+  margin: 6rem 0 2rem 0;
+  border: none;
+}
 .shadow {
-  /* box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.2); */
   box-shadow: 12px 0 15px -4px rgba(167, 167, 167, 0.97),
     -12px 0 8px -4px rgba(121, 122, 124, 0.97);
-  /* width: 329px;
-  height: 476px;
-  margin: 30px; */
-  background: #f0f1f5;
+  margin-bottom: 2rem;
 }
 
 /* Extar Part */
