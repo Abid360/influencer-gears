@@ -107,8 +107,8 @@ p {
 }
 .extra-container {
   display: flex;
-  width: 60%;
-  /* padding: 0 1rem; */
+  width: 100%;
+  padding: 0 3rem;
   flex-direction: column;
 }
 .insta-pic {
