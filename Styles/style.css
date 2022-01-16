@@ -40,7 +40,7 @@ p {
 }
 .button {
   text-decoration: none;
-  background-image: linear-gradient(rgb(15, 118, 153), cyan);
+  background-color: #e02c6d;
   padding: 15px 40px;
   color: whitesmoke;
   font-weight: 800;
@@ -75,9 +75,8 @@ p {
 
 .button-B1 {
   text-decoration: none;
-  /* background-image: linear-gradient(rgb(15, 118, 153), cyan); */
   padding: 15px 40px;
-  color: whitesmoke;
+  color: #e02c6d;
   font-weight: 800;
   border-radius: 15px;
 }
@@ -89,6 +88,10 @@ footer {
   width: 100%;
   color: whitesmoke;
   text-align: center;
+}
+.footer-icon {
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 688px) {
